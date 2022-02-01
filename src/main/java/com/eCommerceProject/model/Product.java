@@ -34,9 +34,8 @@ public class Product {
     private int stock;
 
 
-    @ManyToOne                   //i need to edit the test section
+    @ManyToOne
     private Category category;
-
 
     public Product(String productName, String productBrand, String productDetails, double productPrice, int stock) {
         this.productName = productName;
